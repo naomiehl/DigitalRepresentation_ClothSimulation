@@ -203,13 +203,7 @@
 		<Unit filename="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/HalfedgeDS.cpp">
 			<Option target="ex_bin"/>
 		</Unit>
-		<Unit filename="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/LoopSubdivision.cpp">
-			<Option target="ex_bin"/>
-		</Unit>
 		<Unit filename="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/Particle.cpp">
-			<Option target="ex_bin"/>
-		</Unit>
-		<Unit filename="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SphereGeneration.cpp">
 			<Option target="ex_bin"/>
 		</Unit>
 		<Unit filename="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SystemSolver.cpp">

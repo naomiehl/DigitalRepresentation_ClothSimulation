@@ -32,23 +32,11 @@ iostream
 ostream
 -
 
-/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/LoopSubdivision.cpp
-igl/opengl/glfw/Viewer.h
--
-HalfedgeDS.cpp
-/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/HalfedgeDS.cpp
-
 /home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/Particle.cpp
 igl/opengl/glfw/Viewer.h
 -
 iostream
 -
-
-/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SphereGeneration.cpp
-igl/opengl/glfw/Viewer.h
--
-HalfedgeDS.cpp
-/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/HalfedgeDS.cpp
 
 /home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SystemSolver.cpp
 igl/opengl/glfw/Viewer.h
@@ -65,30 +53,8 @@ iostream
 -
 ostream
 -
-igl/readOFF.h
--
-igl/writeOFF.h
--
-igl/doublearea.h
--
-igl/massmatrix.h
--
-igl/invert_diag.h
--
-igl/jet.h
--
-igl/gaussian_curvature.h
--
-igl/per_vertex_normals.h
--
-igl/per_face_normals.h
--
 HalfedgeBuilder.cpp
 /home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/HalfedgeBuilder.cpp
-SphereGeneration.cpp
-/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SphereGeneration.cpp
-LoopSubdivision.cpp
-/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/LoopSubdivision.cpp
 SystemSolver.cpp
 /home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SystemSolver.cpp
 
@@ -1724,24 +1690,6 @@ Eigen/Dense
 frustum.cpp
 /home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/frustum.cpp
 
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/gaussian_curvature.cpp
-gaussian_curvature.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/gaussian_curvature.h
-internal_angles.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/internal_angles.h
-PI.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/PI.h
-iostream
--
-
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/gaussian_curvature.h
-igl_inline.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/igl_inline.h
-Eigen/Core
--
-gaussian_curvature.cpp
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/gaussian_curvature.cpp
-
 /home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/get_seconds.cpp
 get_seconds.h
 /home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/get_seconds.h
@@ -1775,32 +1723,6 @@ Eigen/Core
 -
 internal_angles.cpp
 /home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/internal_angles.cpp
-
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/invert_diag.cpp
-invert_diag.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/invert_diag.h
-
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/invert_diag.h
-igl_inline.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/igl_inline.h
-Eigen/Sparse
--
-invert_diag.cpp
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/invert_diag.cpp
-
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/jet.cpp
-jet.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/jet.h
-colormap.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/colormap.h
-
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/jet.h
-igl_inline.h
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/igl_inline.h
-Eigen/Dense
--
-jet.cpp
-/home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/jet.cpp
 
 /home/scarlleth/Área de Trabalho/INF574/libigl/cmake/../include/igl/list_to_matrix.cpp
 list_to_matrix.h

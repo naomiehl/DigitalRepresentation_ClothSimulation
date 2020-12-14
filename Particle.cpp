@@ -9,12 +9,11 @@ class Particle
 {
 public:
 
-    Particle(double mass, Vector2d pos_plane, Vector3d pos_3d, int nb_of_particles){
+    Particle(double mass, Vector2d pos_plane, int nb_of_particles){
         m = mass;
         liberty_degrees = 3;
         n = nb_of_particles;
         position_plane = pos_plane;
-        position_3d = pos_3d;
         velocity << 0.0, 0.0, 0.0;
         y_correction << 0.0, 0.0, 0.0;
         z_correction << 0.0, 0.0, 0.0;
@@ -40,25 +39,6 @@ public:
     double v()
     {
         return position_plane[1];
-    }
-
-    double x()
-    {
-        return position_3d[0];
-    }
-
-    double y()
-    {
-        return position_3d[1];
-    }
-
-    double z()
-    {
-        return position_3d[2];
-    }
-
-    Vector3d& getPosition(){
-        return position_3d;
     }
 
     Vector3d& getVelocity(){
@@ -93,10 +73,6 @@ public:
         liberty_degrees = ndof;
     }
 
-    void setPosition3d(Vector3d new_position) {
-        position_3d = new_position;
-    }
-
     void setVelocity(Vector3d new_velocity) {
         velocity = new_velocity;
     }
@@ -121,7 +97,6 @@ private:
     int n;
 
     Vector2d position_plane;
-    Vector3d position_3d;
     Vector3d velocity;
     Vector3d y_correction;
     Vector3d z_correction;

@@ -129,33 +129,9 @@ CMakeFiles/ex_bin.dir/HalfedgeDS.cpp.o.provides: CMakeFiles/ex_bin.dir/HalfedgeD
 CMakeFiles/ex_bin.dir/HalfedgeDS.cpp.o.provides.build: CMakeFiles/ex_bin.dir/HalfedgeDS.cpp.o
 
 
-CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o: CMakeFiles/ex_bin.dir/flags.make
-CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o: ../LoopSubdivision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o -c "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/LoopSubdivision.cpp"
-
-CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/LoopSubdivision.cpp" > CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.i
-
-CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/LoopSubdivision.cpp" -o CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.s
-
-CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o.requires
-
-CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o.provides: CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o.provides.build
-.PHONY : CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o.provides
-
-CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o.provides.build: CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o
-
-
 CMakeFiles/ex_bin.dir/Particle.cpp.o: CMakeFiles/ex_bin.dir/flags.make
 CMakeFiles/ex_bin.dir/Particle.cpp.o: ../Particle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex_bin.dir/Particle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex_bin.dir/Particle.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_bin.dir/Particle.cpp.o -c "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/Particle.cpp"
 
 CMakeFiles/ex_bin.dir/Particle.cpp.i: cmake_force
@@ -177,33 +153,9 @@ CMakeFiles/ex_bin.dir/Particle.cpp.o.provides: CMakeFiles/ex_bin.dir/Particle.cp
 CMakeFiles/ex_bin.dir/Particle.cpp.o.provides.build: CMakeFiles/ex_bin.dir/Particle.cpp.o
 
 
-CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o: CMakeFiles/ex_bin.dir/flags.make
-CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o: ../SphereGeneration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o -c "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SphereGeneration.cpp"
-
-CMakeFiles/ex_bin.dir/SphereGeneration.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex_bin.dir/SphereGeneration.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SphereGeneration.cpp" > CMakeFiles/ex_bin.dir/SphereGeneration.cpp.i
-
-CMakeFiles/ex_bin.dir/SphereGeneration.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex_bin.dir/SphereGeneration.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SphereGeneration.cpp" -o CMakeFiles/ex_bin.dir/SphereGeneration.cpp.s
-
-CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o.requires
-
-CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o.provides: CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o.provides.build
-.PHONY : CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o.provides
-
-CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o.provides.build: CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o
-
-
 CMakeFiles/ex_bin.dir/SystemSolver.cpp.o: CMakeFiles/ex_bin.dir/flags.make
 CMakeFiles/ex_bin.dir/SystemSolver.cpp.o: ../SystemSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex_bin.dir/SystemSolver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex_bin.dir/SystemSolver.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_bin.dir/SystemSolver.cpp.o -c "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/SystemSolver.cpp"
 
 CMakeFiles/ex_bin.dir/SystemSolver.cpp.i: cmake_force
@@ -227,7 +179,7 @@ CMakeFiles/ex_bin.dir/SystemSolver.cpp.o.provides.build: CMakeFiles/ex_bin.dir/S
 
 CMakeFiles/ex_bin.dir/main.cpp.o: CMakeFiles/ex_bin.dir/flags.make
 CMakeFiles/ex_bin.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex_bin.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex_bin.dir/main.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_bin.dir/main.cpp.o -c "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/main.cpp"
 
 CMakeFiles/ex_bin.dir/main.cpp.i: cmake_force
@@ -254,9 +206,7 @@ ex_bin_OBJECTS = \
 "CMakeFiles/ex_bin.dir/Cloth.cpp.o" \
 "CMakeFiles/ex_bin.dir/HalfedgeBuilder.cpp.o" \
 "CMakeFiles/ex_bin.dir/HalfedgeDS.cpp.o" \
-"CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o" \
 "CMakeFiles/ex_bin.dir/Particle.cpp.o" \
-"CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o" \
 "CMakeFiles/ex_bin.dir/SystemSolver.cpp.o" \
 "CMakeFiles/ex_bin.dir/main.cpp.o"
 
@@ -266,9 +216,7 @@ ex_bin_EXTERNAL_OBJECTS =
 ex_bin: CMakeFiles/ex_bin.dir/Cloth.cpp.o
 ex_bin: CMakeFiles/ex_bin.dir/HalfedgeBuilder.cpp.o
 ex_bin: CMakeFiles/ex_bin.dir/HalfedgeDS.cpp.o
-ex_bin: CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o
 ex_bin: CMakeFiles/ex_bin.dir/Particle.cpp.o
-ex_bin: CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o
 ex_bin: CMakeFiles/ex_bin.dir/SystemSolver.cpp.o
 ex_bin: CMakeFiles/ex_bin.dir/main.cpp.o
 ex_bin: CMakeFiles/ex_bin.dir/build.make
@@ -279,7 +227,7 @@ ex_bin: /usr/lib/x86_64-linux-gnu/librt.so
 ex_bin: /usr/lib/x86_64-linux-gnu/libm.so
 ex_bin: /usr/lib/x86_64-linux-gnu/libX11.so
 ex_bin: CMakeFiles/ex_bin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ex_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ex_bin"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex_bin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -290,9 +238,7 @@ CMakeFiles/ex_bin.dir/build: ex_bin
 CMakeFiles/ex_bin.dir/requires: CMakeFiles/ex_bin.dir/Cloth.cpp.o.requires
 CMakeFiles/ex_bin.dir/requires: CMakeFiles/ex_bin.dir/HalfedgeBuilder.cpp.o.requires
 CMakeFiles/ex_bin.dir/requires: CMakeFiles/ex_bin.dir/HalfedgeDS.cpp.o.requires
-CMakeFiles/ex_bin.dir/requires: CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o.requires
 CMakeFiles/ex_bin.dir/requires: CMakeFiles/ex_bin.dir/Particle.cpp.o.requires
-CMakeFiles/ex_bin.dir/requires: CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o.requires
 CMakeFiles/ex_bin.dir/requires: CMakeFiles/ex_bin.dir/SystemSolver.cpp.o.requires
 CMakeFiles/ex_bin.dir/requires: CMakeFiles/ex_bin.dir/main.cpp.o.requires
 

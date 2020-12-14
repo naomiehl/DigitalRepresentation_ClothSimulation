@@ -230,33 +230,6 @@ HalfedgeDS.cpp.s:
 	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/HalfedgeDS.cpp.s
 .PHONY : HalfedgeDS.cpp.s
 
-LoopSubdivision.o: LoopSubdivision.cpp.o
-
-.PHONY : LoopSubdivision.o
-
-# target to build an object file
-LoopSubdivision.cpp.o:
-	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.o
-.PHONY : LoopSubdivision.cpp.o
-
-LoopSubdivision.i: LoopSubdivision.cpp.i
-
-.PHONY : LoopSubdivision.i
-
-# target to preprocess a source file
-LoopSubdivision.cpp.i:
-	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.i
-.PHONY : LoopSubdivision.cpp.i
-
-LoopSubdivision.s: LoopSubdivision.cpp.s
-
-.PHONY : LoopSubdivision.s
-
-# target to generate assembly for a file
-LoopSubdivision.cpp.s:
-	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/LoopSubdivision.cpp.s
-.PHONY : LoopSubdivision.cpp.s
-
 Particle.o: Particle.cpp.o
 
 .PHONY : Particle.o
@@ -283,33 +256,6 @@ Particle.s: Particle.cpp.s
 Particle.cpp.s:
 	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/Particle.cpp.s
 .PHONY : Particle.cpp.s
-
-SphereGeneration.o: SphereGeneration.cpp.o
-
-.PHONY : SphereGeneration.o
-
-# target to build an object file
-SphereGeneration.cpp.o:
-	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/SphereGeneration.cpp.o
-.PHONY : SphereGeneration.cpp.o
-
-SphereGeneration.i: SphereGeneration.cpp.i
-
-.PHONY : SphereGeneration.i
-
-# target to preprocess a source file
-SphereGeneration.cpp.i:
-	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/SphereGeneration.cpp.i
-.PHONY : SphereGeneration.cpp.i
-
-SphereGeneration.s: SphereGeneration.cpp.s
-
-.PHONY : SphereGeneration.s
-
-# target to generate assembly for a file
-SphereGeneration.cpp.s:
-	$(MAKE) -f CMakeFiles/ex_bin.dir/build.make CMakeFiles/ex_bin.dir/SphereGeneration.cpp.s
-.PHONY : SphereGeneration.cpp.s
 
 SystemSolver.o: SystemSolver.cpp.o
 
@@ -385,15 +331,9 @@ help:
 	@echo "... HalfedgeDS.o"
 	@echo "... HalfedgeDS.i"
 	@echo "... HalfedgeDS.s"
-	@echo "... LoopSubdivision.o"
-	@echo "... LoopSubdivision.i"
-	@echo "... LoopSubdivision.s"
 	@echo "... Particle.o"
 	@echo "... Particle.i"
 	@echo "... Particle.s"
-	@echo "... SphereGeneration.o"
-	@echo "... SphereGeneration.i"
-	@echo "... SphereGeneration.s"
 	@echo "... SystemSolver.o"
 	@echo "... SystemSolver.i"
 	@echo "... SystemSolver.s"

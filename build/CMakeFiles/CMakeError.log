@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_30fee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_30fee.dir/build.make CMakeFiles/cmTC_30fee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_11ed7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11ed7.dir/build.make CMakeFiles/cmTC_11ed7.dir/build
 make[1]: Entering directory '/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_30fee.dir/CheckSymbolExists.c.o
-/usr/bin/gcc   -fPIC    -o CMakeFiles/cmTC_30fee.dir/CheckSymbolExists.c.o   -c "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_30fee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30fee.dir/link.txt --verbose=1
-/usr/bin/gcc  -fPIC     -rdynamic CMakeFiles/cmTC_30fee.dir/CheckSymbolExists.c.o  -o cmTC_30fee 
-CMakeFiles/cmTC_30fee.dir/CheckSymbolExists.c.o: Na função "main":
+Building C object CMakeFiles/cmTC_11ed7.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIC    -o CMakeFiles/cmTC_11ed7.dir/CheckSymbolExists.c.o   -c "/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_11ed7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11ed7.dir/link.txt --verbose=1
+/usr/bin/gcc  -fPIC     -rdynamic CMakeFiles/cmTC_11ed7.dir/CheckSymbolExists.c.o  -o cmTC_11ed7 
+CMakeFiles/cmTC_11ed7.dir/CheckSymbolExists.c.o: Na função "main":
 CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_30fee.dir/build.make:97: recipe for target 'cmTC_30fee' failed
-make[1]: *** [cmTC_30fee] Error 1
+CMakeFiles/cmTC_11ed7.dir/build.make:97: recipe for target 'cmTC_11ed7' failed
+make[1]: *** [cmTC_11ed7] Error 1
 make[1]: Leaving directory '/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_30fee/fast' failed
-make: *** [cmTC_30fee/fast] Error 2
+Makefile:126: recipe for target 'cmTC_11ed7/fast' failed
+make: *** [cmTC_11ed7/fast] Error 2
 
 File /home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7ba9d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7ba9d.dir/build.make CMakeFiles/cmTC_7ba9d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_00535/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00535.dir/build.make CMakeFiles/cmTC_00535.dir/build
 make[1]: Entering directory '/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7ba9d.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7ba9d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7ba9d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ba9d.dir/link.txt --verbose=1
-/usr/bin/gcc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7ba9d.dir/CheckFunctionExists.c.o  -o cmTC_7ba9d -lpthreads 
+Building C object CMakeFiles/cmTC_00535.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_00535.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00535
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00535.dir/link.txt --verbose=1
+/usr/bin/gcc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_00535.dir/CheckFunctionExists.c.o  -o cmTC_00535 -lpthreads 
 /usr/bin/ld: não foi possível localizar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_7ba9d.dir/build.make:97: recipe for target 'cmTC_7ba9d' failed
-make[1]: *** [cmTC_7ba9d] Error 1
+CMakeFiles/cmTC_00535.dir/build.make:97: recipe for target 'cmTC_00535' failed
+make[1]: *** [cmTC_00535] Error 1
 make[1]: Leaving directory '/home/scarlleth/Área de Trabalho/INF574/Project/Cloth-Simulation/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7ba9d/fast' failed
-make: *** [cmTC_7ba9d/fast] Error 2
+Makefile:126: recipe for target 'cmTC_00535/fast' failed
+make: *** [cmTC_00535/fast] Error 2
 
 

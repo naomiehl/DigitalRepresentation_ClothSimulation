@@ -28,8 +28,6 @@ class HalfedgeDS
 {
 
 public:
-    HalfedgeDS(){}
-
 	/** 
 	 * Allocate the memory space for storing the data structure.
 	 * This version of the constructor does NOT allocate face indices (for reducing memory requirements)

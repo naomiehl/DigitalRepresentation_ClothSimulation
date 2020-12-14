@@ -8,3 +8,30 @@ Since the beginning, research on clothing simulation has generally relied on exp
 
 The resulting simulation system is much faster than the previously described clothing simulation systems. The goal of this paper is to demonstrate that implicit methods for cloth overcome the performance limits inherent in explicit simulation methods. They also introduce a simple and unified treatment of damping forces, a topic that has been largely ignored until now.
 
+
+# About the code
+
+/* ========================================================================= *
+
+    Obs. 1:
+        The function addDampingForcesStretch() in the SystemSolver solver()
+        method was the one that was causing errors for us just before the
+        submission, so at the time we wrote the report this function was not
+        well implemented yet, we managed to make it work a little later.
+        So if you want to run the exact simulation that we described in the
+        report, just comment the line 28 of SystemSolver.cpp, where this
+        function is called.
+
+    Obs. 2:
+        Also after the submission, we added a new simulation whose difference
+        to the previous one is only the position where we initialise the
+        vertices, this time we initilise them a little more far from what
+        could be considered as the "rest state" of the cloth. We did this
+        with the objectif of generating a simulation where the cloth would
+        have a bigger movement tendency. To switch between one or another
+        version, just uncomment the version desired in the Cloth class
+        constructor. Both versions work better using the function
+        addDampingForcesStretch(), as expected.
+
+ * ========================================================================= */
+

@@ -30,13 +30,24 @@ public:
         F = MatrixXi(n_faces, 3);
 
         // Building V
+
+        // *** Original V (1st animation)
         for (int row = 0; row < n; row++) {
             for(int pt = row*n; pt < row*n + n; pt++) {
                 V.row(pt) = Vector3d((pt % n) * side_size, -row * side_size, 0.);
             }
         }
+        // *****************************
+        // ** New V (2nd animation)
+//        for (int row = 0; row < n; row++) {
+//            for(int pt = row*n; pt < row*n + n; pt++) {
+//                V.row(pt) = Vector3d((pt % n) * side_size * 0.8, -row * side_size * 0.8, 0.);
+//            }
+//        }
+        // *****************************
 
         // Building F
+
         int it_faces = 0;
         for (int row = 0; row < n-1; row++) {
             for (int pt = row*n; pt < row*n + n - 1; pt++) {
@@ -46,17 +57,6 @@ public:
                 it_faces++;
             }
         }
-
-        // INITIALIZE HALFEDGE DATA STRUCTURE
-        //HalfedgeBuilder *builder = new HalfedgeBuilder();
-//        he = (builder->createMeshWithFaces(V.rows(), F));
-//        for(int i = 0; i < he.sizeOfVertices(); i++) {
-//            cout << "Vertex" << i << ": " << V.row(i) << ", degree: " << vertexDegree(i) << endl;
-//        }
-//        cout << "Nb of faces: " << he.sizeOfFaces() << endl;
-//        cout << "Nb of halfedges: " << he.sizeOfHalfedges() << endl;
-//        he.print();
-
     }
 
     void setHalfedgeDS(HalfedgeDS &mesh){
@@ -64,13 +64,15 @@ public:
     }
 
     void initializeParticles(double density){
-        for (int i = 0; i < n_vertices; i++) {
-            int degree = vertexDegree(i);
-            double mass = (degree * density * a) * 1.0/3.0;
-            Vector3d pos_3d = V.row(i);
-            Vector2d pos_plane(pos_3d[0], pos_3d[1]);
-            particles.push_back(Particle(mass, pos_plane, pos_3d, n_vertices));
+        for (int row = 0; row < n; row++) {
+            for(int pt = row*n; pt < row*n + n; pt++) {
+                int degree = vertexDegree(pt);
+                double mass = (degree * density * a) * 1.0/3.0;
+                Vector2d pos_plane((pt % n) * side_size, -row * side_size);
+                particles.push_back(Particle(mass, pos_plane, n_vertices));
+            }
         }
+
         particles[0].setNdof(0);
         particles[n-1].setNdof(0);
     }
@@ -95,17 +97,12 @@ public:
         return particles;
     }
 
+    double getA(){
+        return a;
+    }
+
 
 private:
-
-    int n, n_vertices, n_faces;
-    double side_size;
-    double a;
-    MatrixXd V;
-    MatrixXi F;
-    HalfedgeDS* he;
-    vector<Particle> particles;
-
 
     int vertexDegree(int v)
     {
@@ -119,4 +116,15 @@ private:
 
         return degree;
     }
+
+
+    int n, n_vertices, n_faces;
+    double side_size;
+    double a;
+
+    MatrixXd V;
+    MatrixXi F;
+    HalfedgeDS* he;
+    vector<Particle> particles;
+
 };
